@@ -1,0 +1,6 @@
+<mvc:View controllerName="apple.projectlay.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="Mix Layout">
+    </Page>
+</mvc:View>
