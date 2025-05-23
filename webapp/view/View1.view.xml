@@ -1,9 +1,9 @@
 <mvc:View controllerName="apple.projectlay.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
+    xmlns="sap.m" xmlns:layout="sap.ui.layout" xmlns:form="sap.ui.layout.form">
     <Page id="page" title="Mix Layout" titleAlignment="Center">
-        <content>
-            <FlexBox id="idFlxbx" justifyContent="End">
+        <content> 
+                <!-- <FlexBox id="idFlxbx" justifyContent="End">
                 <Label id="idLbFl" text="This is example of flexbox"></Label>
                 <Button id="idBtnFlx1" text="Go" type="Accept"></Button>
                 <Button id="idBtnFlx2" text="Cancel" type="Reject"></Button>    
@@ -12,7 +12,25 @@
                 <Label id="idL1" text="This is a Vbox"></Label>
                 <Button id="idBtnFlx3" text="Go" type="Accept"></Button>
                 <Button id="idBtnFlx4" text="Cancel" type="Reject"></Button>
-            </VBox>
+            </VBox> -->
+            <ObjectHeader id="idObj" title="Mayur Satardekar" number="25000000000000000"
+                                                              numberUnit="USD">
+                <attributes>
+                    <ObjectAttribute id="idObjAt1" title="C-ID" text="100001" ></ObjectAttribute>
+                    <ObjectAttribute id="idObjAt2" title="Position" text="Billionaire"></ObjectAttribute>
+                </attributes>
+                <statuses>
+                    <ObjectStatus id="idObjSt1" text="Empire Maker"></ObjectStatus>
+                </statuses>            
+            </ObjectHeader>
+            <IconTabBar id="idIconTab1">
+                <items>
+                    <IconTabFilter id="idIconF1" icon="sap-icon://home"></IconTabFilter>
+                    <IconTabFilter id="idIconF2" icon="sap-icon://notes"></IconTabFilter>
+                    <IconTabFilter id="idIconF3" icon="sap-icon://information"></IconTabFilter>
+                
+                </items>
+            </IconTabBar>
         </content>
     </Page>
 </mvc:View>
