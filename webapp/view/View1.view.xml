@@ -1,6 +1,18 @@
 <mvc:View controllerName="apple.projectlay.controller.View1"
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
-    <Page id="page" title="Mix Layout">
+    <Page id="page" title="Mix Layout" titleAlignment="Center">
+        <content>
+            <FlexBox id="idFlxbx" justifyContent="End">
+                <Label id="idLbFl" text="This is example of flexbox"></Label>
+                <Button id="idBtnFlx1" text="Go" type="Accept"></Button>
+                <Button id="idBtnFlx2" text="Cancel" type="Reject"></Button>    
+            </FlexBox>
+            <VBox id="idVbox" >
+                <Label id="idL1" text="This is a Vbox"></Label>
+                <Button id="idBtnFlx3" text="Go" type="Accept"></Button>
+                <Button id="idBtnFlx4" text="Cancel" type="Reject"></Button>
+            </VBox>
+        </content>
     </Page>
 </mvc:View>
